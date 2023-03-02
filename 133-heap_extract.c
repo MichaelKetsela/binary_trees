@@ -103,3 +103,39 @@ void heapify(heap_t *root)
 		tmp1 = tmp2;
 	}
 }
+
+/**
+ * heap_extract - extracts the root node of a Max Binary Heap
+ * @root: a double pointer to the root node of heap
+ *
+ * Return: the value stored in the root node
+ *         0 on failure
+ */
+int heap_extract(heap_t **root)
+{
+	int value;
+	heap_t *heap_r, *node;
+
+	if (!root || !*root)
+		return (0);
+	heap_r = *root;
+	value = heap_r->n;
+	if (!heap_r->left && !heap_r->right)
+	{
+		*root = NULL;
+		free(heap_r);
+		return (value);
+	}
+
+	_preorder(heap_r, &node, tree_height(heap_r));
+
+	heap_r->n = node->n;
+	if (node->parent->right)
+		node->parent->right = NULL;
+	else
+		node->parent->left = NULL;
+	free(node);
+	heapify(heap_r);
+	*root = heap_r;
+	return (value);
+}
