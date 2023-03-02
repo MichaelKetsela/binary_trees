@@ -1204,7 +1204,7 @@ alex@/tmp/binary_trees$
 ```
 ## Task 24
 
-A function that checks if a binary tree is a valid Binary Search Tree
+A function that checks if a binary tree is a valid [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
 ```
 alex@/tmp/binary_trees$ cat 110-main.c
 #include <stdlib.h>
@@ -1489,7 +1489,7 @@ What are the average time complexities of those operations on a Binary Search Tr
 
 ## Task 30
 
-A function that checks if a binary tree is a valid AVL Tree
+A function that checks if a binary tree is a valid [AVL Tree](https://en.wikipedia.org/wiki/AVL_tree)
 
 Properties of an AVL Tree:
 
@@ -1867,7 +1867,7 @@ What are the average time complexities of those operations on an AVL Tree (one a
 
 ## Task 36
 
-A function that checks if a binary tree is a valid Max Binary Heap
+A function that checks if a binary tree is a valid [Max Binary Heap](https://en.wikipedia.org/wiki/Binary_heap)
 
 Properties of a Max Binary Heap:
 
