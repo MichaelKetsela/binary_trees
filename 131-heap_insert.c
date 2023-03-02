@@ -41,7 +41,7 @@ heap_t *heap_insert(heap_t **root, int value)
 	/* Flip values with parent until parent value exceeds new value */
 
 	return (new);
-	
+
 }
 
 /**
