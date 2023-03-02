@@ -36,7 +36,7 @@ alex@/tmp/binary_trees$ ./0-node
 alex@/tmp/binary_trees$
 ```
 
-##Task 1
+## Task 1
 
 inserts a node as the left-child of another node
 ```
@@ -75,7 +75,7 @@ alex@/tmp/binary_trees$ ./1-left
 alex@/tmp/binary_trees$
 ```
  
-##Task 2
+## Task 2
 
 inserts a node as the right-child of another node
 ```
@@ -114,7 +114,7 @@ alex@/tmp/binary_trees$ ./2-right
 alex@/tmp/binary_trees$
 ```
 
-##Task 3
+## Task 3
 
 A function that deletes an entire binary tree
 ```
@@ -163,7 +163,7 @@ alex@/tmp/binary_trees$ valgrind ./3-del
 alex@/tmp/binary_trees$
 ```
 
-##Task 4
+## Task 4
 
 function that checks if a node is a leaf
 ```
@@ -207,7 +207,7 @@ Is 128 a leaf: 0
 Is 402 a leaf: 1
 alex@/tmp/binary_trees$
 ```
-##Task 5
+## Task 5
 
 A function that checks if a given node is a root
 ```
@@ -251,7 +251,7 @@ Is 128 a root: 0
 Is 402 a root: 0
 alex@/tmp/binary_trees$
 ```
-##Task 6
+## Task 6
 
 A function that goes through a binary tree using pre-order traversal
 ```
@@ -305,7 +305,7 @@ alex@/tmp/binary_trees$ ./6-pre
 512
 alex@/tmp/binary_trees$
 ```
-##Task 7
+## Task 7
 
 A  function that goes through a binary tree using in-order traversal
 ```
@@ -359,7 +359,7 @@ alex@/tmp/binary_trees$ ./7-in
 512
 alex@/tmp/binary_trees$
 ```
-##Task 8
+## Task 8
 
 A function that goes through a binary tree using post-order traversal
 ```
@@ -413,7 +413,7 @@ alex@/tmp/binary_trees$ ./8-post
 98
 alex@/tmp/binary_trees$
 ```
-##Task 9
+## Task 9
 
 A function that measures the height of a binary tree
 ```
@@ -457,7 +457,7 @@ Height from 128: 1
 Height from 54: 0
 alex@/tmp/binary_trees$
 ```
-##Task 10
+## Task 10
 
 A function that measures the depth of a node in a binary tree
 ```
@@ -501,7 +501,7 @@ Depth of 128: 1
 Depth of 54: 2
 alex@/tmp/binary_trees$
 ```
-##Task 11
+## Task 11
 
 A function that measures the size of a binary tree
 ```
@@ -545,7 +545,7 @@ Size of 128: 2
 Size of 54: 1
 alex@/tmp/binary_trees$
 ```
-##Task 12
+## Task 12
 
 A function that counts the leaves in a binary tree
 ```
@@ -589,7 +589,7 @@ Leaves in 128: 1
 Leaves in 54: 1
 alex@/tmp/binary_trees$
 ```
-##Task 13
+## Task 13
 
 A function that counts the nodes with at least 1 child in a binary tree
 ```
@@ -633,7 +633,7 @@ Nodes in 128: 1
 Nodes in 54: 0
 alex@/tmp/binary_trees$
 ```
-##Task 14
+## Task 14
 
 A function that measures the balance factor of a binary tree
 ```
@@ -683,7 +683,7 @@ Balance of 128: -1
 Balance of 54: +0
 alex@/tmp/binary_trees$
 ```
-##Task 15
+## Task 15
 
 A function that checks if a binary tree is full
 ```
@@ -728,7 +728,7 @@ Is 12 full: 1
 Is 128 full: 0
 alex@/tmp/binary_trees$
 ```
-##Task 16
+## Task 16
 
 A function that checks if a binary tree is perfect
 ```
@@ -790,7 +790,7 @@ Perfect: 0
 Perfect: 0
 alex@/tmp/binary_trees$
 ```
-##Task 17
+## Task 17
 
 A function that finds the sibling of a node
 ```
@@ -842,7 +842,7 @@ Sibling of 54: 10
 Sibling of 98: (nil)
 alex@/tmp/binary_trees$
 ```
-##Task 18
+## Task 18
 
 A function that finds the uncle of a node
 ```
@@ -891,7 +891,7 @@ Uncle of 54: 128
 Uncle of 12: (nil)
 alex@/tmp/binary_trees$
 ```
-##Task 19
+## Task 19
 
 A function that finds the lowest common ancestor of two nodes
 ```
@@ -954,7 +954,7 @@ Ancestor of [45] & [65]: 402
 Ancestor of [128] & [65]: 128
 alex@/tmp/binary_trees$
 ```
-##Task 20
+## Task 20
 
 A function that goes through a binary tree using level-order traversal
 ```
@@ -1023,7 +1023,7 @@ alex@/tmp/binary_trees$ valgrind ./101-lvl
 ==23445== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 alex@/tmp/binary_trees$
 ```
-##Task 21
+## Task 21
 
 A function that checks if a binary tree is complete
 ```
@@ -1096,7 +1096,7 @@ Is 98 complete: 1
 Is 98 complete: 0
 alex@/tmp/binary_trees$
 ```
-##Task 22
+## Task 22
 
 A function that performs a left-rotation on a binary tree
 ```
@@ -1149,7 +1149,7 @@ Rotate-left 128
 (098)     (420)
 alex@/tmp/binary_trees$
 ```
-##Task 23
+## Task 23
 
 A function that performs a right-rotation on a binary tree
 ```
@@ -1202,7 +1202,7 @@ Rotate-right 64
           (056)     (098)
 alex@/tmp/binary_trees$
 ```
-##Task 24
+## Task 24
 
 A function that checks if a binary tree is a valid Binary Search Tree
 ```
@@ -1253,7 +1253,7 @@ Is 12 bst: 1
 Is 98 bst: 0
 alex@/tmp/binary_trees$
 ```
-##Task 25
+## Task 25
 
 A function that inserts a value in a Binary Search Tree
 ```
@@ -1311,7 +1311,7 @@ Node should be nil -> (nil)
                          (256)
 alex@/tmp/binary_trees$
 ```
-##Task 26
+## Task 26
 
 A function that builds a Binary Search Tree from an array
 ```
@@ -1348,7 +1348,7 @@ alex@/tmp/binary_trees$ ./112-bst_array
 (001)     (020)     (022)     (034)                                   (095)
 alex@/tmp/binary_trees$
 ```
-##Task 27
+## Task 27
 
 A  function that removes a node from a Binary Search Tree
 ```
@@ -1396,7 +1396,7 @@ Found: 32
 Node should be nil -> (nil)
 alex@/tmp/binary_trees$
 ```
-##Task 28
+## Task 28
 
 A function that removes a node from a Binary Search Tree
 ```
@@ -1479,7 +1479,7 @@ Removed 68...
 ==14720== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 alex@/tmp/binary_trees$
 ```
-##Task 29
+## Task 29
 
 What are the average time complexities of those operations on a Binary Search Tree (one answer per line):
 
@@ -1487,7 +1487,7 @@ What are the average time complexities of those operations on a Binary Search Tr
 * Removing the node with the value n
 * Searching for a node in a BST of size n
 
-##Task 30
+## Task 30
 
 A function that checks if a binary tree is a valid AVL Tree
 
@@ -1579,7 +1579,7 @@ Is 98 avl: 0
 Is 98 avl: 0
 alex@/tmp/binary_trees$
 ```
-##Task 31
+## Task 31
 
 A function that inserts a value in an AVL Tree
 ```
@@ -1666,7 +1666,7 @@ Inserted: 50
                                    (512)
 alex@/tmp/binary_trees$
 ```
-##Task 32
+## Task 32
 
 A function that builds an AVL tree from an array
 ```
@@ -1703,7 +1703,7 @@ alex@/tmp/binary_trees$ ./122-avl_array
                                                                       (095)
 alex@/tmp/binary_trees$
 ```
-##Task 33
+## Task 33
 
 A function that removes a node from an AVL tree
 ```
@@ -1802,7 +1802,7 @@ Removed 22...
 ==15646== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 alex@/tmp/binary_trees$
 ```
-##Task 34
+## Task 34
 
 A  function that builds an AVL tree from an array
 ```
@@ -1857,7 +1857,7 @@ alex@/tmp/binary_trees$ ./124-avl_sorted
                                                                            (098)
 alex@/tmp/binary_trees$
 ```
-##Task 35
+## Task 35
 
 What are the average time complexities of those operations on an AVL Tree (one answer per line):
 
@@ -1865,7 +1865,7 @@ What are the average time complexities of those operations on an AVL Tree (one a
 * Removing the node with the value n
 * Searching for a node in an AVL tree of size n
 
-##Task 36
+## Task 36
 
 A function that checks if a binary tree is a valid Max Binary Heap
 
@@ -1944,7 +1944,7 @@ Is 98 heap: 0
 Is 98 heap: 0
 alex@/tmp/binary_trees$
 ```
-##Task 37
+## Task 37
 
 A function that inserts a value in Max Binary Heap
 ```
@@ -2030,7 +2030,7 @@ Inserted: 50
 (046)
 alex@/tmp/binary_trees$
 ```
-##Task 38
+## Task 38
 
 A function that builds a Max Binary Heap tree from an array
 ```
@@ -2067,7 +2067,7 @@ alex@/tmp/binary_trees$ ./132-heap_array
 (032)
 alex@/tmp/binary_trees$
 ```
-##Task 39
+## Task 39
 
 A function that extracts the root node of a Max Binary Heap
 ```
@@ -2148,7 +2148,7 @@ Extracted: 91
 ==29133== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 alex@/tmp/binary_trees$
 ```
-##Task 40
+## Task 40
 
 A function that converts a Binary Max Heap to a sorted array of integers
 ```
@@ -2229,7 +2229,7 @@ alex@/tmp/binary_trees$ valgrind ./134-heap_sort
 ==46529== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 alex@/tmp/binary_trees$
 ```
-##Task 41
+## Task 41
 
 What are the average time complexities of those operations on a Binary Heap (one answer per line):
 
